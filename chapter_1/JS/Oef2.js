@@ -1,0 +1,1 @@
+alert("Welkom op de website!");
