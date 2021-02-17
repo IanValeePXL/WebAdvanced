@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../bootstrap_files/bootstrap.min.css" rel="stylesheet">
+    <script src="../bootstrap_files/bootstrap.min.js"></script>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1”>
+</head>
+<body>
+<form action="mailto:ian.valee@student.pxl.com">
+    <div class="form-group">
+        <label for="naam">Naam:</label>
+        <input type="naam" class="form-control" id="naam">
+        <label for="voornaam">Voornaam:</label>
+        <input type="voornaam" class="form-control" id="voornaam">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email">
+    </div><br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<h1 id="naamTekst">test</h1>
+<h2>5 dagen tot versoepeling</h2>
+<p>"I know I'm not a model but you have to see what's inside, not the packaging" -Maggie De Blok</p>
+
+<script>
+    let naam = prompt('geef je naam', 'naam');
+    document.getElementById("naamTekst").innerHTML = naam;
+</script>
+</body>
+</html>
