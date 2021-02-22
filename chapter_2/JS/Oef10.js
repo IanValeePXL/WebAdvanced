@@ -20,6 +20,8 @@ solutionArray.push(getal1 < getal2);
 solutionArray.push(getal1 <= getal2);
 solutionArray.push(getal1 > getal2);
 solutionArray.push(getal1 >= getal2);
+solutionArray.push(typeof getal1);
+solutionArray.push((getal1 == getal2) ? "getal1 = getal2" : "getal1 != getal2");
 let teller = 0;
 let table = document.getElementById("informationTable");
 for (let i = 1; i < table.rows.length; i++){
