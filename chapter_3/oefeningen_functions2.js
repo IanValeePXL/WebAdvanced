@@ -41,7 +41,7 @@ function startsWithHello(string){
 // output: Verwijder het zoveelste karakter uit je string en print de nieuwe string (met dus 1 karakter minder)
 // TIP: Kijk naar String.substring of String.slice
 function removeCharacter(string, number){
-    return string.slice(0, number - 1) + string.slice(number, string.length);
+    return string.substringData(0, number - 1) + string.substringData(number, string.length);
 }
 
 function removeCharacter2(string, number){
