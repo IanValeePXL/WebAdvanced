@@ -21,7 +21,7 @@ function difference(number){
 // 2 parameters
 // output: Geeft TRUE terug als één van de getallen '50' is OF de som van de 2 getallen '50' is.
 function isFifty(number, number2){
-    return number === 50 || number + number2 === 50;
+    return number === 50 || number2 === 50 || number + number2 === 50;
 }
 
 
@@ -29,7 +29,7 @@ function isFifty(number, number2){
 // 1 parameter
 // output: Als de inputstring begint met 'Hello ', return gewoon de string. Begint ze niet met 'Hello ', plak dit er dan voor.
 function startsWithHello(string){
-    if (!string === 'Hello '){
+    if (string.substringData(0, 5) === 'Hello '){
         string = 'Hello ' + string;
     }
     return string;
